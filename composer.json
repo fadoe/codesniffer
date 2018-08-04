@@ -1,0 +1,17 @@
+{
+    "name": "fadoe/codesniffer",
+    "description": "Coding standards for FaDoe projects",
+    "type": "phpcodesniffer-standard",
+    "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.4",
+        "wimg/php-compatibility": "^8.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Falk Doering",
+            "email": "falk.doering@fadoe.de"
+        }
+    ],
+    "minimum-stability": "stable"
+}
