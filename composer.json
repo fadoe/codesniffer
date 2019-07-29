@@ -3,8 +3,8 @@
     "description": "Coding standards for FaDoe projects",
     "type": "phpcodesniffer-standard",
     "require": {
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.4",
-        "wimg/php-compatibility": "^8.2"
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+        "phpcompatibility/php-compatibility": "^9.2"
     },
     "license": "MIT",
     "authors": [
