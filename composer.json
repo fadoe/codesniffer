@@ -3,8 +3,8 @@
     "description": "Coding standards for FaDoe projects",
     "type": "phpcodesniffer-standard",
     "require": {
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
-        "phpcompatibility/php-compatibility": "^9.2"
+        "dealerdirect/phpcodesniffer-composer-installer": "^v0.7.2",
+        "phpcompatibility/php-compatibility": "^9.3.5"
     },
     "license": "MIT",
     "authors": [
@@ -13,5 +13,10 @@
             "email": "falk.doering@fadoe.de"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
 }
